@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hey Jaimee!</title>
+    <script>
+        function startInvitation() {
+            setTimeout(function() {
+                alert("Hey Jaimee, you look stunning today.");
+                setTimeout(function() {
+                    alert("You know, I've been thinking...");
+                    setTimeout(function() {
+                        alert("Next weekend, clear your schedule.");
+                        setTimeout(function() {
+                            alert("Because I'm picking you up on my motorcycle.");
+                            setTimeout(function() {
+                                alert("We're going on a date. No excuses.");
+                                setTimeout(function() {
+                                    alert("I'll handle everything. Just be ready.");
+                                }, 1000);
+                            }, 1000);
+                        }, 1000);
+                    }, 1000);
+                }, 1000);
+            }, 1000);
+        }
+    </script>
+</head>
+<body onload="startInvitation()">
+    <h1 style="text-align: center;">Open this on your phone :)</h1>
+</body>
+</html>
